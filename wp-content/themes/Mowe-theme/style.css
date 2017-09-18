@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+/* mainstyle */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Hiragino Sans","ヒラギノ角ゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
+	font-size: 15px;
+}
+
+.font-abc {
+	font-family: 'Reenie Beanie', cursive,"Hiragino Sans", sans-serif;
+}
+
+/* -----------ヘッダー----------- */
+
+header h1 {
+	background: #234794;
+	font-size: 12px;
+	font-size: 1.2rem;
+	padding: 6px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	color: rgba(255,255,255,.8);
+	width: 100%;
+	min-width: 980px;
+}
+
+.haederbox {
+	width: 980px;
+	margin: 0 auto;
+}
+.headmenu {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 30px;
+	font-size: 3rem;
+}
+.headmenu a {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 10px;
+	margin: 0 6px;
+	border-bottom: 1px solid #c7c7c7;
+}
+.headmenu li#menu-item-21 a{
+	border-bottom: none;
+}
+header h2 {
+	text-align: center;
+	font-size: 32px;
+	font-size: 3.2rem;
+	padding: 5px 0;
+	margin: 51px 0;
+	color: #000;
+	font-weight: normal;
+}
+
+#breadcrumb {
+	margin-bottom: 20px;
+}
+
+#breadcrumb ul {
+	display: -webkit-flex;
+	display: flex;
+	font-size: 12px;
+	list-style: none;
+}
+
+#breadcrumb ul a {
+	color: #EFC94C;
+}
+
+/* -----------indexページ----------- */
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+.mainbooth {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.mainimages {
+	text-align: center;
+	margin-bottom: 25px;
+}
+article.articlelist {
+	width: 30%;
+	margin: 10px;
+}
+article.articlelist figure img {
+	border: 1px solid #ccc;
+}
+.articlelist a {
+	text-decoration: none;
+	color: #575757;
+}
+.list-title,
+.list-title a,
+.articlelist a .list-title {
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #222;
+	padding: 5px 0;
+	display: block;
+	line-height: 1.5;
+	text-decoration: none;
+}
+.list-title a:hover,
+.articlelist a:hover {
+	text-decoration: underline;
+}
+.list-info {
+	font-size: 12px;
+	font-size: 1.2rem;
+	padding: 3px 0;
+}
+.articlelist a p {
+	color: #575757;
+	line-height: 1.9;
+}
+.meta-category a{
+	color: #fff;
+	text-decoration: none;
+	background: #ccc;
+	border-radius: 10px;
+	padding: 3px 8px;
+	display: inline-block;
+	margin-right: 5px;
+}
+/* カテゴリーの色分け */
+.event a,
+.eventnews a{
+	background: #EFC94C;
+}
+.information a{
+	background: #45B29D;
+}
+.new-item a{
+	background: #E27A3F;
+}
+.other a{
+	background: #334D5C;
+}
+aside ul {
+	margin: 0 10px;
+}
+aside li {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #ccc;
+	line-height: 1.5;
+}
+aside li:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+aside #aside-info {
+	margin-right: 10px;
+}
+aside a p {
+	font-size: 17px;
+	font-size: 1.7rem;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	color: #333;
+}
+
+.snsbox {
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 40px;
+}
+
+#bloglist {
+	width: calc(100% - 340px);
+	margin-right: 20px;
+}
+
+#bloglist a {
+	color: #000;
+	text-decoration: none;
+}
+
+#bloglist p {
+	font-size: 20px;
+	font-size: 2rem;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#bloglist ul li {
+	padding: 10px;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+.rss-date {
+	font-size: 12px;
+	font-size: 1.2rem;
+	margin-left: 5px;
+	color: #a9b7bf;
+}
+#fblist {
+	width: 340px;
+}
+
+/* -----------固定ページ----------- */
+.page-title {
+	font-size: 38px;
+	font-size: 3.8rem;
+	font-weight: normal;
+	margin: 59px 0;
+	text-align: center;
+}
+.ps-page-title {
+	font-size: 22px;
+	font-size: 2.2rem;
+	margin: 59px 0;
+	font-weight: normal;
+	font-family: "Hiragino Sans","ヒラギノ角ゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+.page-txt {
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+.page-txt figure{
+	text-align: center;
+}
+.page-txt p {
+	margin: 35px 0;
+	line-height: 3;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+/* -----------コンタクトページ----------- */
+.wpcf7-form {
+	width: 355px;
+	margin: 0 auto;
+}
+.wpcf7-form p {
+	line-height: 1.7;
+	font-size: 14px;
+	font-size: 1.4rem;
+	text-align: left;
+}
+.wpcf7-form input {
+	font-size: 16px;
+	font-size: 1.6rem;
+	border: 1px solid #234794;
+}
+.wpcf7-form textarea {
+	font-size: 16px;
+	font-size: 1.6rem;
+	width: 355px;
+	border: 1px solid #234794;
+}
+.wpcf7-submit[value] {
+	width: 360px;
+	background: #a9b7bf;
+	border: 1px solid #234794;
+	padding: 5px ;
+	display: block;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: "Hiragino Sans","ヒラギノ角ゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
+	letter-spacing: .2em;
+}
+
+
+/* -----------What’s Newページ----------- */
+.new-list {
+	display: -webkit-flex;
+	display: flex;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.new-list section{
+	width: calc(100% - 290px);
+}
+
+.new-list section h2 {
+	font-weight: bold;
+}
+
+.new-list section article{
+	margin: 39px;
+	border-top: 1px solid #eee;
+	padding: 39px;
+}
+
+.new-list section article .list-info {
+	margin: 10px 0;
+}
+
+.new-list section article p {
+	line-height: 1.9;
+}
+
+.new-list section article p a {
+	color: #4aa9ba;
+}
+
+.pager {
+	margin-left: 20px;
+}
+.pager a {
+	color: #234794;
+}
+/* -----------サイドバー----------- */
+.new-list aside{
+	width: 290px;
+	padding-left: 10px;
+	margin-bottom: 55px;
+}
+.new-list aside .side-title{
+	font-size: 28px;
+	font-size: 2.8rem;
+}
+.new-list aside ul {
+	margin: 18px;
+}
+.new-list aside ul a {
+	display: inline-block;
+	padding: 10px 0;
+	color: #575757;
+}
+
+/* -----------フッター----------- */
+footer {
+	border-top: 1px solid #ccc;
+	padding: 60px 10px;
+	line-height: 2;
+	background: url(img/denim.jpg) top center/ cover no-repeat fixed;
+	margin-top: 50px;
+	width: 100%;
+	min-width: 980px;
+}
+address {
+	font-style: normal;
+}
+.foot-colum {
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-start;
+}
+.foot-b {
+	font-weight: bold;
+	font-size: 17px;
+	font-size: 1.7rem;
+}
+.foot-colum img {
+	margin-right: 5px;
+}
+footer span {
+	display: block;
+}
+
+footer span a {
+	color: rgba(255,255,255,.8);
+}
+
+footer span a:hover {
+	text-decoration: none;
+}
+
+footer small {
+	font-size: 28px;
+	font-size: 2.8rem;
+}
